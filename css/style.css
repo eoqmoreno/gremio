@@ -1,0 +1,50 @@
+:root{
+	--verde : #42AEAF;
+	--branco: white;
+	--cinza: #EEEEEE;
+	--azul: #00447C;
+}
+
+/* BACKGROUND */
+.bg-verde{
+	background-color: var(--verde)!important;
+}
+.bg-branco{
+	background-color: var(--branco)!important;
+}
+.bg-cinza{
+	background-color: var(--cinza)!important;
+}
+
+/* BORDA*/
+.border-radius{
+	border-radius: 10px;
+}
+.border-none{
+	border: none;
+}
+
+/* FLOAT */
+.float-right{
+	float: right;
+}
+
+/* TITLE */
+.title{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* COR DE TEXTO */
+.cinza{
+	color: var(--cinza);
+}
+.branco{
+	color: var(--branco) !important;
+}
+.verde{
+	color: var(--verde);
+}
+.azul{
+	color: var(--azul);
+}
